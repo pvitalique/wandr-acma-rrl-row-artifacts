@@ -1,0 +1,58 @@
+{
+  "artifact_text": "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 12:10:12 source_zip_sha256=4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f service_bucket=maritime_coast\nclient_csv_locator=client.csv CLIENT_NO=20000768 CLIENT_TYPE_ID=2 non_natural_person_classification=CLIENT_TYPE_ID_2 LICENCEE=AUSTRALIAN MARITIME SAFETY AUTHORITY TRADING_NAME=Australian Maritime Safety Authority ACN= ABN=65377938320\nlicence_csv_locator=licence.csv CLIENT_NO=20000768 LICENCE_NO=10001230/1 LICENCE_TYPE_NAME=Maritime Coast LICENCE_CATEGORY_NAME=Limited Coast Assigned System STATUS_TEXT=Granted DATE_OF_EFFECT=2024-06-21 DATE_OF_EXPIRY=2029-06-26",
+  "artifact_text_lines": [
+    "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 12:10:12 source_zip_sha256=4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f service_bucket=maritime_coast",
+    "client_csv_locator=client.csv CLIENT_NO=20000768 CLIENT_TYPE_ID=2 non_natural_person_classification=CLIENT_TYPE_ID_2 LICENCEE=AUSTRALIAN MARITIME SAFETY AUTHORITY TRADING_NAME=Australian Maritime Safety Authority ACN= ABN=65377938320",
+    "licence_csv_locator=licence.csv CLIENT_NO=20000768 LICENCE_NO=10001230/1 LICENCE_TYPE_NAME=Maritime Coast LICENCE_CATEGORY_NAME=Limited Coast Assigned System STATUS_TEXT=Granted DATE_OF_EFFECT=2024-06-21 DATE_OF_EXPIRY=2029-06-26"
+  ],
+  "artifact_type": "acma_rrl_row_artifact",
+  "artifact_variant": "positive",
+  "client_csv_fields": {
+    "ABN": "65377938320",
+    "ACN": "",
+    "CAT_ID": "",
+    "CLIENT_NO": "20000768",
+    "CLIENT_TYPE_ID": "2",
+    "FEE_STATUS_ID": "1",
+    "LICENCEE": "AUSTRALIAN MARITIME SAFETY AUTHORITY",
+    "TRADING_NAME": "Australian Maritime Safety Authority"
+  },
+  "client_csv_locator": "client.csv CLIENT_NO=20000768",
+  "client_row_hash_sha256": "68426f302e0c977a9d9c2f8e0185ae1d690ff69b72b8624bb322d9ae3f137f0f",
+  "csv_timestamp": "2026-06-30 12:10:12",
+  "data_vintage": "2026-06-30",
+  "licence_csv_fields": {
+    "CLIENT_NO": "20000768",
+    "DATE_ISSUED": "2024-06-21",
+    "DATE_OF_EFFECT": "2024-06-21",
+    "DATE_OF_EXPIRY": "2029-06-26",
+    "LICENCE_CATEGORY_NAME": "Limited Coast Assigned System",
+    "LICENCE_NO": "10001230/1",
+    "LICENCE_TYPE_NAME": "Maritime Coast",
+    "SS_ID": "501",
+    "STATUS": "1",
+    "STATUS_TEXT": "Granted",
+    "SV_ID": "5"
+  },
+  "licence_csv_locator": "licence.csv LICENCE_NO=10001230/1",
+  "licence_row_hash_sha256": "28aea0989c524aabfd2297c3ac8edf405c145d5d5340744f4159848a471c70f3",
+  "official_source_url": "https://cdn.acma.gov.au/rrl/spectra_rrl.zip",
+  "omitted_fields_to_preserve_task_safety_scope": {
+    "client_csv": [
+      "POSTAL_STREET",
+      "POSTAL_SUBURB",
+      "POSTAL_STATE",
+      "POSTAL_POSTCODE"
+    ],
+    "licence_csv": [
+      "AP_ID",
+      "AP_PRJ_IDENT",
+      "SHIP_NAME",
+      "BSL_NO",
+      "AWL_TYPE"
+    ]
+  },
+  "service_bucket": "maritime_coast",
+  "source_zip_bytes": 67703987,
+  "source_zip_sha256": "4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f"
+}

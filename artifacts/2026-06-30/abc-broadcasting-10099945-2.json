@@ -1,0 +1,58 @@
+{
+  "artifact_text": "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 12:10:12 source_zip_sha256=4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f service_bucket=broadcasting\nclient_csv_locator=client.csv CLIENT_NO=1103909 CLIENT_TYPE_ID=6 non_natural_person_classification=CLIENT_TYPE_ID_6 LICENCEE=AUSTRALIAN BROADCASTING CORPORATION TRADING_NAME=AUSTRALIAN BROADCASTING CORPORATION ACN= ABN=52429278345\nlicence_csv_locator=licence.csv CLIENT_NO=1103909 LICENCE_NO=10099945/2 LICENCE_TYPE_NAME=Broadcasting LICENCE_CATEGORY_NAME=National Broadcasting STATUS_TEXT=Granted DATE_OF_EFFECT=2025-10-22 DATE_OF_EXPIRY=2026-11-30",
+  "artifact_text_lines": [
+    "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 12:10:12 source_zip_sha256=4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f service_bucket=broadcasting",
+    "client_csv_locator=client.csv CLIENT_NO=1103909 CLIENT_TYPE_ID=6 non_natural_person_classification=CLIENT_TYPE_ID_6 LICENCEE=AUSTRALIAN BROADCASTING CORPORATION TRADING_NAME=AUSTRALIAN BROADCASTING CORPORATION ACN= ABN=52429278345",
+    "licence_csv_locator=licence.csv CLIENT_NO=1103909 LICENCE_NO=10099945/2 LICENCE_TYPE_NAME=Broadcasting LICENCE_CATEGORY_NAME=National Broadcasting STATUS_TEXT=Granted DATE_OF_EFFECT=2025-10-22 DATE_OF_EXPIRY=2026-11-30"
+  ],
+  "artifact_type": "acma_rrl_row_artifact",
+  "artifact_variant": "positive",
+  "client_csv_fields": {
+    "ABN": "52429278345",
+    "ACN": "",
+    "CAT_ID": "15",
+    "CLIENT_NO": "1103909",
+    "CLIENT_TYPE_ID": "6",
+    "FEE_STATUS_ID": "1",
+    "LICENCEE": "AUSTRALIAN BROADCASTING CORPORATION",
+    "TRADING_NAME": "AUSTRALIAN BROADCASTING CORPORATION"
+  },
+  "client_csv_locator": "client.csv CLIENT_NO=1103909",
+  "client_row_hash_sha256": "ebd3e896fb6edc1c5bd47ec928ba36c46261e33089a36f83e305247dcdc7b303",
+  "csv_timestamp": "2026-06-30 12:10:12",
+  "data_vintage": "2026-06-30",
+  "licence_csv_fields": {
+    "CLIENT_NO": "1103909",
+    "DATE_ISSUED": "2025-10-22",
+    "DATE_OF_EFFECT": "2025-10-22",
+    "DATE_OF_EXPIRY": "2026-11-30",
+    "LICENCE_CATEGORY_NAME": "National Broadcasting",
+    "LICENCE_NO": "10099945/2",
+    "LICENCE_TYPE_NAME": "Broadcasting",
+    "SS_ID": "107",
+    "STATUS": "1",
+    "STATUS_TEXT": "Granted",
+    "SV_ID": "1"
+  },
+  "licence_csv_locator": "licence.csv LICENCE_NO=10099945/2",
+  "licence_row_hash_sha256": "7bbfe4ae04f600647239c82b2b53649f63d7f541d5deefd4f84559eeb0c8c024",
+  "official_source_url": "https://cdn.acma.gov.au/rrl/spectra_rrl.zip",
+  "omitted_fields_to_preserve_task_safety_scope": {
+    "client_csv": [
+      "POSTAL_STREET",
+      "POSTAL_SUBURB",
+      "POSTAL_STATE",
+      "POSTAL_POSTCODE"
+    ],
+    "licence_csv": [
+      "AP_ID",
+      "AP_PRJ_IDENT",
+      "SHIP_NAME",
+      "BSL_NO",
+      "AWL_TYPE"
+    ]
+  },
+  "service_bucket": "broadcasting",
+  "source_zip_bytes": 67703987,
+  "source_zip_sha256": "4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f"
+}
