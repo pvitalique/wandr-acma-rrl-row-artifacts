@@ -6,14 +6,14 @@ Source:
 
 - Official download: `https://cdn.acma.gov.au/rrl/spectra_rrl.zip`
 - Data vintage: `2026-06-30`
-- ZIP SHA-256: `4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f`
+- CSV timestamp: `2026-06-30 14:55:32`
+- ZIP SHA-256: `f790e3bf339dea4b59e743ab35968917c1edee705b8bef40ebe3695cd9db4ab4`
 
 Publication scope:
 
 - Organisational rows only.
 - Natural-person / `CLIENT_TYPE_ID=7` material is intentionally omitted.
-- Postal/contact fields, site fields, coordinates, frequencies, antenna/device fields, and comparable operational details are omitted.
+- Postal/contact fields, site fields, coordinates, frequencies, antenna/device fields, ship names, application/project identifiers, and comparable operational details are omitted.
 - Artifacts preserve only organisation/licence-provenance fields needed to audit the ACMA RRL evidence surface.
 
 Attribution: Based on Australian Communications and Media Authority information.
-

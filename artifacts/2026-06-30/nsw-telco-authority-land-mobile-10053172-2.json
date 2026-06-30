@@ -1,12 +1,12 @@
 {
-  "artifact_text": "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 12:10:12 source_zip_sha256=4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f service_bucket=public_safety_land_mobile\nclient_csv_locator=client.csv CLIENT_NO=20011941 CLIENT_TYPE_ID=3 non_natural_person_classification=CLIENT_TYPE_ID_3 LICENCEE=NEW SOUTH WALES GOVERNMENT TELECOMMUNICATIONS AUTHORITY TRADING_NAME=Telco Authority (NSW Ambulance) ACN= ABN=85430594829\nlicence_csv_locator=licence.csv CLIENT_NO=20011941 LICENCE_NO=10053172/2 LICENCE_TYPE_NAME=Land Mobile LICENCE_CATEGORY_NAME=Land Mobile System - > 30MHz STATUS_TEXT=Granted DATE_OF_EFFECT=2025-11-27 DATE_OF_EXPIRY=2027-01-05",
+  "artifact_text": "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 14:55:32 source_zip_sha256=f790e3bf339dea4b59e743ab35968917c1edee705b8bef40ebe3695cd9db4ab4 service_bucket=public_safety_land_mobile\nclient_csv_locator=client.csv CLIENT_NO=20011941 CLIENT_TYPE_ID=3 non_natural_person_classification=CLIENT_TYPE_ID_3 LICENCEE=NEW SOUTH WALES GOVERNMENT TELECOMMUNICATIONS AUTHORITY TRADING_NAME=Telco Authority (NSW Ambulance) ABN=85430594829\nlicence_csv_locator=licence.csv CLIENT_NO=20011941 LICENCE_NO=10053172/2 LICENCE_TYPE_NAME=Land Mobile LICENCE_CATEGORY_NAME=Land Mobile System - > 30MHz STATUS_TEXT=Granted DATE_OF_EFFECT=2025-11-27 DATE_OF_EXPIRY=2027-01-05",
   "artifact_text_lines": [
-    "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 12:10:12 source_zip_sha256=4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f service_bucket=public_safety_land_mobile",
-    "client_csv_locator=client.csv CLIENT_NO=20011941 CLIENT_TYPE_ID=3 non_natural_person_classification=CLIENT_TYPE_ID_3 LICENCEE=NEW SOUTH WALES GOVERNMENT TELECOMMUNICATIONS AUTHORITY TRADING_NAME=Telco Authority (NSW Ambulance) ACN= ABN=85430594829",
+    "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 14:55:32 source_zip_sha256=f790e3bf339dea4b59e743ab35968917c1edee705b8bef40ebe3695cd9db4ab4 service_bucket=public_safety_land_mobile",
+    "client_csv_locator=client.csv CLIENT_NO=20011941 CLIENT_TYPE_ID=3 non_natural_person_classification=CLIENT_TYPE_ID_3 LICENCEE=NEW SOUTH WALES GOVERNMENT TELECOMMUNICATIONS AUTHORITY TRADING_NAME=Telco Authority (NSW Ambulance) ABN=85430594829",
     "licence_csv_locator=licence.csv CLIENT_NO=20011941 LICENCE_NO=10053172/2 LICENCE_TYPE_NAME=Land Mobile LICENCE_CATEGORY_NAME=Land Mobile System - > 30MHz STATUS_TEXT=Granted DATE_OF_EFFECT=2025-11-27 DATE_OF_EXPIRY=2027-01-05"
   ],
-  "artifact_type": "acma_rrl_row_artifact",
-  "artifact_variant": "positive",
+  "artifact_type": "acma_rrl_current_download_row_artifact",
+  "artifact_variant": "positive_organisational_non_natural_person",
   "client_csv_fields": {
     "ABN": "85430594829",
     "ACN": "",
@@ -19,7 +19,7 @@
   },
   "client_csv_locator": "client.csv CLIENT_NO=20011941",
   "client_row_hash_sha256": "01e9ded2d8d78af154346d1126742766614ff42abee8b7bd2fc0af9f6703e8e1",
-  "csv_timestamp": "2026-06-30 12:10:12",
+  "csv_timestamp": "2026-06-30 14:55:32",
   "data_vintage": "2026-06-30",
   "licence_csv_fields": {
     "CLIENT_NO": "20011941",
@@ -38,21 +38,30 @@
   "licence_row_hash_sha256": "d8f705b435083cbff2697052ab13c641c2c0b9e0627c6254fdeb061bd7a3ce03",
   "official_source_url": "https://cdn.acma.gov.au/rrl/spectra_rrl.zip",
   "omitted_fields_to_preserve_task_safety_scope": {
-    "client_csv": [
+    "client_csv_fields": [
       "POSTAL_STREET",
       "POSTAL_SUBURB",
       "POSTAL_STATE",
       "POSTAL_POSTCODE"
     ],
-    "licence_csv": [
+    "licence_csv_fields": [
       "AP_ID",
       "AP_PRJ_IDENT",
       "SHIP_NAME",
       "BSL_NO",
       "AWL_TYPE"
+    ],
+    "omitted_subject_matter": [
+      "postal/contact details",
+      "coordinates",
+      "detailed frequencies",
+      "site names or locations",
+      "antenna/device details",
+      "ship names",
+      "application/project identifiers"
     ]
   },
   "service_bucket": "public_safety_land_mobile",
-  "source_zip_bytes": 67703987,
-  "source_zip_sha256": "4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f"
+  "source_zip_bytes": 67712061,
+  "source_zip_sha256": "f790e3bf339dea4b59e743ab35968917c1edee705b8bef40ebe3695cd9db4ab4"
 }

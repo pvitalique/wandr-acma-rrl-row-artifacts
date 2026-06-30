@@ -1,0 +1,67 @@
+{
+  "artifact_text": "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 14:55:32 source_zip_sha256=f790e3bf339dea4b59e743ab35968917c1edee705b8bef40ebe3695cd9db4ab4 service_bucket=maritime_coast\nclient_csv_locator=client.csv CLIENT_NO=1147558 CLIENT_TYPE_ID=5 non_natural_person_classification=CLIENT_TYPE_ID_5 LICENCEE=TASMANIAN PORTS CORPORATION PTY. LTD. TRADING_NAME=Tasports ACN=114161938 ABN=82114161938\nlicence_csv_locator=licence.csv CLIENT_NO=1147558 LICENCE_NO=10889557/1 LICENCE_TYPE_NAME=Maritime Coast LICENCE_CATEGORY_NAME=Limited Coast Non Assigned STATUS_TEXT=Granted DATE_OF_EFFECT=2026-06-26 DATE_OF_EXPIRY=2027-07-30",
+  "artifact_text_lines": [
+    "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 14:55:32 source_zip_sha256=f790e3bf339dea4b59e743ab35968917c1edee705b8bef40ebe3695cd9db4ab4 service_bucket=maritime_coast",
+    "client_csv_locator=client.csv CLIENT_NO=1147558 CLIENT_TYPE_ID=5 non_natural_person_classification=CLIENT_TYPE_ID_5 LICENCEE=TASMANIAN PORTS CORPORATION PTY. LTD. TRADING_NAME=Tasports ACN=114161938 ABN=82114161938",
+    "licence_csv_locator=licence.csv CLIENT_NO=1147558 LICENCE_NO=10889557/1 LICENCE_TYPE_NAME=Maritime Coast LICENCE_CATEGORY_NAME=Limited Coast Non Assigned STATUS_TEXT=Granted DATE_OF_EFFECT=2026-06-26 DATE_OF_EXPIRY=2027-07-30"
+  ],
+  "artifact_type": "acma_rrl_current_download_row_artifact",
+  "artifact_variant": "positive_organisational_non_natural_person",
+  "client_csv_fields": {
+    "ABN": "82114161938",
+    "ACN": "114161938",
+    "CAT_ID": "15",
+    "CLIENT_NO": "1147558",
+    "CLIENT_TYPE_ID": "5",
+    "FEE_STATUS_ID": "1",
+    "LICENCEE": "TASMANIAN PORTS CORPORATION PTY. LTD.",
+    "TRADING_NAME": "Tasports"
+  },
+  "client_csv_locator": "client.csv CLIENT_NO=1147558",
+  "client_row_hash_sha256": "424fa3c8acc35938be1896e5a96b57ea8a0a091fe34f93e6ec4d862339a964ef",
+  "csv_timestamp": "2026-06-30 14:55:32",
+  "data_vintage": "2026-06-30",
+  "licence_csv_fields": {
+    "CLIENT_NO": "1147558",
+    "DATE_ISSUED": "2026-06-26",
+    "DATE_OF_EFFECT": "2026-06-26",
+    "DATE_OF_EXPIRY": "2027-07-30",
+    "LICENCE_CATEGORY_NAME": "Limited Coast Non Assigned",
+    "LICENCE_NO": "10889557/1",
+    "LICENCE_TYPE_NAME": "Maritime Coast",
+    "SS_ID": "503",
+    "STATUS": "1",
+    "STATUS_TEXT": "Granted",
+    "SV_ID": "5"
+  },
+  "licence_csv_locator": "licence.csv LICENCE_NO=10889557/1",
+  "licence_row_hash_sha256": "49714a4426406a3760bae952fa6473fee337dbeb7559b9da83897d34eb4c9e5b",
+  "official_source_url": "https://cdn.acma.gov.au/rrl/spectra_rrl.zip",
+  "omitted_fields_to_preserve_task_safety_scope": {
+    "client_csv_fields": [
+      "POSTAL_STREET",
+      "POSTAL_SUBURB",
+      "POSTAL_STATE",
+      "POSTAL_POSTCODE"
+    ],
+    "licence_csv_fields": [
+      "AP_ID",
+      "AP_PRJ_IDENT",
+      "SHIP_NAME",
+      "BSL_NO",
+      "AWL_TYPE"
+    ],
+    "omitted_subject_matter": [
+      "postal/contact details",
+      "coordinates",
+      "detailed frequencies",
+      "site names or locations",
+      "antenna/device details",
+      "ship names",
+      "application/project identifiers"
+    ]
+  },
+  "service_bucket": "maritime_coast",
+  "source_zip_bytes": 67712061,
+  "source_zip_sha256": "f790e3bf339dea4b59e743ab35968917c1edee705b8bef40ebe3695cd9db4ab4"
+}

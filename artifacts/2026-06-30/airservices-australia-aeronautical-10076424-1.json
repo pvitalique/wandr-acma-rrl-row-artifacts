@@ -1,12 +1,12 @@
 {
-  "artifact_text": "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 12:10:12 source_zip_sha256=4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f service_bucket=aeronautical_services\nclient_csv_locator=client.csv CLIENT_NO=401054 CLIENT_TYPE_ID=3 non_natural_person_classification=CLIENT_TYPE_ID_3 LICENCEE=Airservices Australia TRADING_NAME=QLD Services ACN= ABN=59698720886\nlicence_csv_locator=licence.csv CLIENT_NO=401054 LICENCE_NO=10076424/1 LICENCE_TYPE_NAME=Aeronautical LICENCE_CATEGORY_NAME=Aeronautical Assigned System STATUS_TEXT=Granted DATE_OF_EFFECT=2026-06-19 DATE_OF_EXPIRY=2027-06-30",
+  "artifact_text": "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 14:55:32 source_zip_sha256=f790e3bf339dea4b59e743ab35968917c1edee705b8bef40ebe3695cd9db4ab4 service_bucket=aeronautical_services\nclient_csv_locator=client.csv CLIENT_NO=401054 CLIENT_TYPE_ID=3 non_natural_person_classification=CLIENT_TYPE_ID_3 LICENCEE=Airservices Australia TRADING_NAME=QLD Services ABN=59698720886\nlicence_csv_locator=licence.csv CLIENT_NO=401054 LICENCE_NO=10076424/1 LICENCE_TYPE_NAME=Aeronautical LICENCE_CATEGORY_NAME=Aeronautical Assigned System STATUS_TEXT=Granted DATE_OF_EFFECT=2026-06-19 DATE_OF_EXPIRY=2027-06-30",
   "artifact_text_lines": [
-    "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 12:10:12 source_zip_sha256=4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f service_bucket=aeronautical_services",
-    "client_csv_locator=client.csv CLIENT_NO=401054 CLIENT_TYPE_ID=3 non_natural_person_classification=CLIENT_TYPE_ID_3 LICENCEE=Airservices Australia TRADING_NAME=QLD Services ACN= ABN=59698720886",
+    "ACMA_RRL_ROW_ARTIFACT official_source_url=https://cdn.acma.gov.au/rrl/spectra_rrl.zip data_vintage=2026-06-30 csv_timestamp=2026-06-30 14:55:32 source_zip_sha256=f790e3bf339dea4b59e743ab35968917c1edee705b8bef40ebe3695cd9db4ab4 service_bucket=aeronautical_services",
+    "client_csv_locator=client.csv CLIENT_NO=401054 CLIENT_TYPE_ID=3 non_natural_person_classification=CLIENT_TYPE_ID_3 LICENCEE=Airservices Australia TRADING_NAME=QLD Services ABN=59698720886",
     "licence_csv_locator=licence.csv CLIENT_NO=401054 LICENCE_NO=10076424/1 LICENCE_TYPE_NAME=Aeronautical LICENCE_CATEGORY_NAME=Aeronautical Assigned System STATUS_TEXT=Granted DATE_OF_EFFECT=2026-06-19 DATE_OF_EXPIRY=2027-06-30"
   ],
-  "artifact_type": "acma_rrl_row_artifact",
-  "artifact_variant": "positive",
+  "artifact_type": "acma_rrl_current_download_row_artifact",
+  "artifact_variant": "positive_organisational_non_natural_person",
   "client_csv_fields": {
     "ABN": "59698720886",
     "ACN": "",
@@ -19,7 +19,7 @@
   },
   "client_csv_locator": "client.csv CLIENT_NO=401054",
   "client_row_hash_sha256": "8cb8a13bcccc87bd9c47c0f0883e98639eeae2ba187f398edcaeb5d585d0fa9d",
-  "csv_timestamp": "2026-06-30 12:10:12",
+  "csv_timestamp": "2026-06-30 14:55:32",
   "data_vintage": "2026-06-30",
   "licence_csv_fields": {
     "CLIENT_NO": "401054",
@@ -38,21 +38,30 @@
   "licence_row_hash_sha256": "57b107df1145a6a921f6fd61b2e63a7c8e211326724441b62166956d2cd284fc",
   "official_source_url": "https://cdn.acma.gov.au/rrl/spectra_rrl.zip",
   "omitted_fields_to_preserve_task_safety_scope": {
-    "client_csv": [
+    "client_csv_fields": [
       "POSTAL_STREET",
       "POSTAL_SUBURB",
       "POSTAL_STATE",
       "POSTAL_POSTCODE"
     ],
-    "licence_csv": [
+    "licence_csv_fields": [
       "AP_ID",
       "AP_PRJ_IDENT",
       "SHIP_NAME",
       "BSL_NO",
       "AWL_TYPE"
+    ],
+    "omitted_subject_matter": [
+      "postal/contact details",
+      "coordinates",
+      "detailed frequencies",
+      "site names or locations",
+      "antenna/device details",
+      "ship names",
+      "application/project identifiers"
     ]
   },
   "service_bucket": "aeronautical_services",
-  "source_zip_bytes": 67703987,
-  "source_zip_sha256": "4a0980d1507a4da87a675c55f304d1edf6b81bb4f0051713918146266db20d1f"
+  "source_zip_bytes": 67712061,
+  "source_zip_sha256": "f790e3bf339dea4b59e743ab35968917c1edee705b8bef40ebe3695cd9db4ab4"
 }
